@@ -54,11 +54,3 @@ app.delete('/comments/:id', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
-
-// test with curl
-// curl -X POST -H "Content-Type: application/json" -d '{"author": "John Doe", "text": "Hello, world!"}' http://localhost:3000/comments
-// curl -X GET http://localhost:3000/comments
-// curl -X GET http://localhost:3000/comments/1
-// curl -X PUT -H "Content-Type: application/json" -d '{"author": "Jane Doe", "text": "Hello, world!"}' http://localhost:3000/comments/1
-// curl -X DELETE http://localhost:3000/comments/1
-// curl
