@@ -1,6 +1,4 @@
 // create web server
-// create a route for comments
-// send the comments data to the client
 const express = require('express');
 const app = express();
 const comments = require('./comments-data');
